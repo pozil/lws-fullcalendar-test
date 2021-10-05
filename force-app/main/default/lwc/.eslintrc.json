@@ -1,6 +1,15 @@
 {
-  "extends": ["@salesforce/eslint-config-lwc/recommended", "prettier"],
+  "extends": [
+    "@salesforce/eslint-config-lwc/recommended",
+    "@locker/eslint-config-locker"
+  ],
   "overrides": [
+    {
+      "files": ["*.js"],
+      "rules": {
+        "@locker/locker/distorted-element-shadow-root-getter": "warn"
+      }
+    },
     {
       "files": ["*.test.js"],
       "rules": {
