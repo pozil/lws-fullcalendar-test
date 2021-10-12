@@ -10,6 +10,6 @@ With Locker active the FullCalendar library will not load:
 Enable **Locker Web Security (beta)** in Setup > Session Settings
 
 Refresh the Lightning tab with the test component.
-Notice that the component still doesn't work and there's no error in the browser console.
+Notice that the component still doesn't work and there's a CSP error.
 
 ![LWS error](gfx/lws-error.png)
