@@ -17,9 +17,7 @@ export default class Calendar extends LightningElement {
       loadStyle(this, FULL_CALENDAR + '/main.min.css')
     ])
       .then(() => {
-        console.log('Calendar JS and CSS resources loaded');
         this.initializeCalendar();
-        console.log('Calendar initialized.');
       })
       .catch((error) => {
         console.error(error);
