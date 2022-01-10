@@ -13,7 +13,7 @@ export default class Calendar extends LightningElement {
     this.isCalInitialized = true;
 
     Promise.all([
-      loadScript(this, FULL_CALENDAR + '/main.min.js'),
+      loadScript(this, FULL_CALENDAR + '/main.js'),
       loadStyle(this, FULL_CALENDAR + '/main.min.css')
     ])
       .then(() => {
