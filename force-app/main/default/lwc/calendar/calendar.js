@@ -13,14 +13,14 @@ export default class Calendar extends LightningElement {
     this.isCalInitialized = true;
 
     Promise.all([
-      loadScript(this, FULL_CALENDAR + '/main.js'),
+      loadScript(this, FULL_CALENDAR + '/main.min.js'),
       loadStyle(this, FULL_CALENDAR + '/main.min.css')
     ])
       .then(() => {
         this.initializeCalendar();
       })
       .catch((error) => {
-        console.error(error);
+        console.error(JSON.stringify(error));
         this.dispatchEvent(
           new ShowToastEvent({
             title: 'Error loading calendar',
