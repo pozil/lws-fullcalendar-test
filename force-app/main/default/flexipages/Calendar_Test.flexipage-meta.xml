@@ -10,7 +10,7 @@
                 <componentInstanceProperties>
                     <name>richTextValue</name>
                     <value
-          >&lt;p&gt;💡 &lt;b style=&quot;color: rgb(0, 0, 0);&quot;&gt;Remember to activate Lightning Web Security.&lt;/b&gt;&lt;/p&gt;</value>
+                    >&lt;p&gt;💡 &lt;b style=&quot;color: rgb(0, 0, 0);&quot;&gt;Remember to activate Lightning Web Security.&lt;/b&gt;&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
                 <identifier>flexipage_richText1</identifier>
